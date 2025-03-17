@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+
+/* Define as cores do modo escuro */
+@layer base {
+  :root {
+    --color-bg: white;
+    --color-text: black;
+  }
+
+  .dark {
+    --color-bg: #111827; /* Cinza escuro */
+    --color-text: white;
+  }
+}
+
+/* Aplica as variáveis às cores */
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  transition: background-color 0.3s, color 0.3s;
+}

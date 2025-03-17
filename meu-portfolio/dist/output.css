@@ -1,0 +1,30 @@
+/* Estilos base do Tailwind CSS */
+@layer base {
+    /* Reset de estilos padrão do navegador */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    /* Outros estilos base */
+  }
+  
+  /* Estilos de componentes do Tailwind CSS */
+  @layer components {
+    /* Exemplo de um componente personalizado */
+    .btn {
+      @apply px-4 py-2 bg-blue-500 text-white rounded-lg;
+    }
+  }
+  
+  /* Classes utilitárias do Tailwind CSS */
+  @layer utilities {
+    /* Exemplo de classes utilitárias */
+    .text-center {
+      text-align: center;
+    }
+    .mt-4 {
+      margin-top: 1rem;
+    }
+    /* Outras classes utilitárias */
+  }
